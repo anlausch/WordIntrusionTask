@@ -1,0 +1,17 @@
+extends layout
+
+block header
+    h2(class='col-md-8', style="text-align:left;width:auto;height:auto") Word Intrusion Task
+
+block content
+    h6(class='col-md-12', style="clear:both")  Please select the word that does not fit with the others.
+    h4#thanks
+    #label0(class='col-md-12 labelOption')
+    #label1(class='col-md-12 labelOption')
+    #label2(class='col-md-12 labelOption')
+    #label3(class='col-md-12 labelOption')
+    #label4(class='col-md-12 labelOption')
+    #buttons(class='col-md-12 btn-group', style="margin-bottom:75px")
+        button#idNextWordIntrusion(class='btn btn-primary')
+            span(class="glyphicon glyphicon-ok", aria-hidden="true") 
+            text  Next

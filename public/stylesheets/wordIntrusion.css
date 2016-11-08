@@ -1,0 +1,25 @@
+.termbox a{ 
+    color: #000000;
+}
+
+.termbox a:hover{ 
+    color: #0d87e9;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+    height: 460px;
+}
+
+.labelOption h4:hover, .labelOption a:hover{ 
+    color: #0d87e9;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.labelOption a{ 
+    color: #000000;
+}
